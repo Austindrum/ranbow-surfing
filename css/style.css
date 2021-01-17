@@ -368,7 +368,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 /* Statement */
 #statement {
-    background: url("./img/statement/statement.jpg");
+    background: url("../img/statement/statement.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -707,7 +707,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 /* Stats */
 #stats {
-    background: url("./img/stats/stats.jpg");
+    background: url("../img/stats/stats.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
