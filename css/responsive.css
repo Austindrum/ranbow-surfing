@@ -1,0 +1,189 @@
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .vertical-heading h5 {
+        font-size: 18px;
+        left: -40px;
+    }
+    .vertical-heading h2 {
+        font-size: 29px;
+    }
+    #services-tabs .tab-bg {
+        padding: 16px 30px;
+        min-height: 300px;
+    }
+    .servieces-tab p {
+        line-height: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar .navbar-brand img {
+        transform: translateX(-30px);
+    }
+    .navbar .brand-text {
+        width: 160px;
+        font-size: 25px;
+        left: -60px;
+    }
+    ul.navbar-nav > li > a {
+        font-size: 8px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-right: 0px;
+    }
+    .vertical-heading h2 {
+        font-size: 29px;
+    }
+    #home-heading h1 {
+        font-size: 41px;
+    }
+    #home-text p {
+        font-size: 13px;
+    }
+    .btn-general {
+        padding: 8px 35px 8px 35px;
+        font-size: 10px;
+    }
+    #tech-statement h3 {
+        font-size: 15px;
+    }
+    .service-tab img{
+        max-height: 480px;
+    }
+    .service-tab .tab-bg {
+        padding: 10px 20px;
+        min-height: 240px;
+    }
+    .service-tab .tab-bg h2 {
+        font-size: 25px;
+    }
+    .service-tab .tab-bg h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .service-tab .tab-bg p {
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .about-item {
+        margin: 25px 0;
+    }
+    #services-01 .horizontal-heading {
+        margin-bottom: 20px;
+    }
+    .testimonial .author .author-name-des {
+        margin-top: 0;
+    }
+    #pricing .pricing-table {
+        padding: 20px 16px;
+    }
+    #pricing .pricing-table .price p {
+        font-size: 4px;
+        padding-left: 10px;
+    }
+    .protfolio-item-details h3{
+        font-size: 25px;
+    }
+    .protfolio-item-details span {
+        height: 3px;
+        width: 20px;
+    }
+    .protfolio-item-details p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    #home-heading #home-heading-1 {
+        font-size: 50px;
+        letter-spacing: 0;
+    }
+    #home-heading span {
+        font-size: 25px;
+        top: 50px;
+    }
+    .navbar .navbar-brand img {
+        width: 60px;
+        transform: translateX(-40px);
+    }
+    .navbar .brand-text {
+        bottom: -3px;
+        left: -60px;
+        width: 160px;
+        font-size: 22px;
+        font-weight: 900;
+        font-family: 'Dancing Script', cursive;
+        user-select: none;
+        z-index: 0;
+    }
+    .navbar #mobile-nav-open-btn {
+        display: block;
+    }
+    #home-heading h1 {
+        font-size: 41px;
+    }
+    #home-text p {
+        font-size: 13px;
+    }
+    .vertical-heading {
+        margin-bottom: 50px;
+    }
+    .about-item {
+        margin: 25px 0;
+    }
+    .service-tab .tab-bg {
+        padding: 20px 20px;
+        min-height: 240px;
+    }
+    .service-tab #service-02-btn a{
+        margin: 0;
+    }
+    #services-01 .horizontal-heading {
+        margin-bottom: 10px;
+    }
+    #services-tabs .r-tabs-accordion-title{
+        text-align: center;
+        font-family: "Raleway", sans-serif;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 30px;
+        padding: 10px;
+    }
+    #services-tabs .r-tabs-accordion-title a {
+        text-decoration: none;
+        color: #212226;
+    }
+    #services-tabs .r-tabs-accordion-title.r-tabs-state-active a{
+        color: #f4c613;
+        font-weight: 700;
+        border-bottom: 3px solid #f4c613;
+        padding-bottom: 5px;
+        -webkit-transition: border-color 300ms linear;
+        transition: border-color 300ms linear;
+    }
+    #tech-statement h3 {
+        font-size: 15px;
+    }
+    #testimonials .testimonial p{
+        font-size: 16px;
+    }
+    #testimonials .testimonial .author-name-des {
+        margin: 0;
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    #pricing .pricing-table{
+        margin: 10px 0;
+    }
+    #pricing .pricing-table .price p {
+        margin-top: 25px;
+    }
+    #stats .stats-item {
+        margin: 10px 0;
+    }
+}
